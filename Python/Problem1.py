@@ -10,4 +10,4 @@ class Solution:
             profit1 = max(profit1, price + buy1)
             buy2 = max(buy2,profit1 - price)
             total_profit = max(total_profit, price + buy2)
-        return total_profit         
+        return total_profit
