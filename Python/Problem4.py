@@ -20,3 +20,4 @@ class Solution:
 
         diff = wordLength - lps[wordLength*2]
         return (reversedString[:diff]+s)
+

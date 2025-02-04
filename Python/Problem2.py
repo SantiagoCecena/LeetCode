@@ -11,3 +11,4 @@ class Solution:
                 patches += 1
                 missingNumber += missingNumber
         return patches
+

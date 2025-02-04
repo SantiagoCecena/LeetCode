@@ -11,3 +11,4 @@ class Solution:
             buy2 = max(buy2,profit1 - price)
             total_profit = max(total_profit, price + buy2)
         return total_profit
+
